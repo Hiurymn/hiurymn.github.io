@@ -1,0 +1,53 @@
+html,body{
+    margin: 0;
+    text-align: center;
+}
+#imagem_fundo{
+    background-image:url(img/wind-183247_1280.jpg);
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+}
+#Titulo{
+    color: #1E1915;
+    padding-top: 15%;
+    margin: 0;
+    font-size: 450%;
+}
+#Subtitulo{
+    color: #1E1915;
+    font-size: 150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px #1E1915 solid;
+}
+#Paragrafo_1{
+    color: #1E1915;
+    font-size: 110%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    
+}
+#Paragrafo_2{
+    color: #1E1915;
+    font-size: 110%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+#Ação{
+    color: #1E1915;
+    border: 2px #1E1915 solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
