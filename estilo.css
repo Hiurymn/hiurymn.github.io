@@ -1,0 +1,149 @@
+html,body{
+    margin: 0;
+    font-family:'Roboto',sans-serif;
+    
+}
+header{
+    background-color:#242614;
+    color: #F2C46D;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 50px;
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 50px;
+    transform: translatex(-50%) ;
+    
+}
+#menu{
+    float:right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0;
+    
+}
+li{
+   float: left; 
+   padding: 20px 20px 22px 20px;
+}
+li:hover{
+    background-color: #D95A11;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+#imagem_fundo{
+    background-image:url(img/capaH.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#Titulo{
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    padding-top: 12%;
+    margin: 0;
+    font-size: 500%;
+}
+#Subtitulo{
+    color: #1E1915;
+    text-shadow: 2px 2px 4px white;
+    font-size: 160%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;
+}
+
+#Ação{
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.icone{
+    width: 50px;
+}
+
+.destaque{
+    background-color: white;
+}
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+.imgeco{
+    width: 90%;
+    height: 35%;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.quatro{
+    width: 15%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.dois{
+    width: 40%;
+    float: left;
+}
+footer{
+    background-color:#242614;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.cinco{
+    text-decoration: none;
+    color: white;
+}
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0px;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+}
+#credito{
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
